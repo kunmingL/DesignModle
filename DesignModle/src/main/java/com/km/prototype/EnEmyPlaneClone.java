@@ -30,4 +30,7 @@ public class EnEmyPlaneClone implements Cloneable {
     public EnEmyPlaneClone clone() throws CloneNotSupportedException{
         return (EnEmyPlaneClone)super.clone();
     }
+
+
+
 }

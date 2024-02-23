@@ -1,5 +1,10 @@
 package com.km.singlemodle;
 
+/**
+ * 单例的核心概念在于 对象只能在本身方法内创建
+ * 始终只能内部创建，无法用于外部创建；
+ * 外部始终只能获得创建好的对象，内部判断是否已经存在，若存在则返回内部创建对象，若不存在则内部创建。
+ */
 public class LazySun {
     //不进行初始化，而是有需要再调用获取实例
     private static  LazySun lazySun;
